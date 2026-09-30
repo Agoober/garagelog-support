@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Frequently asked questions
+    url: https://agoober.github.io/garagelog-support/
+    about: Answers to common questions about reminders, fuel economy, sync, import/export and Pro.
+  - name: Privacy policy
+    url: https://agoober.github.io/garagelog-support/privacy.html
+    about: How GarageLog handles your data (it doesn't collect any).

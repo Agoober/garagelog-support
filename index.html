@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GarageLog Support</title>
+  <meta name="description" content="Help and answers for GarageLog, the car maintenance, fuel and cost tracker for iPhone and iPad.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="./"><img src="assets/favicon.png" alt="">GarageLog</a>
+      <nav class="site" aria-label="Site">
+        <a href="./" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img src="assets/icon.png" alt="GarageLog app icon">
+        <h1>How can we help?</h1>
+        <p>Answers to common questions about GarageLog for iPhone and iPad.</p>
+      </section>
+
+      <section class="card contact" aria-labelledby="contact">
+        <div class="text">
+          <h2 id="contact">Contact support</h2>
+          <p>Didn't find your answer below? Send us a request and we'll get back to you. Requests are posted publicly on GitHub, so please don't include personal information like your VIN, license plate or policy numbers.</p>
+        </div>
+        <a class="button" href="https://github.com/Agoober/garagelog-support/issues/new/choose">Get help</a>
+      </section>
+
+      <h2 class="section">Getting started</h2>
+
+      <details>
+        <summary>How do I add my car?</summary>
+        <p>Tap <strong>Add My Vehicle</strong> on the welcome screen. Enter the year, make and model (or a nickname), choose the powertrain, and check the units — distance, fuel volume and currency default to your region, and you can change them per vehicle. If you enter the 17-character VIN, tap <strong>Fill In From VIN</strong> to fill in the details automatically.</p>
+        <p>GarageLog then creates a maintenance schedule that fits the car — an electric car gets no oil changes, a diesel gets a fuel filter, and so on.</p>
+      </details>
+
+      <details>
+        <summary>Can I try it before entering my own car?</summary>
+        <p>Yes — choose <strong>Explore with a Demo Car</strong> on the welcome screen. To remove it later, go to the <strong>Vehicle</strong> tab › <strong>More</strong> (<kbd>…</kbd>) › <strong>Settings</strong> › <strong>Remove Demo Car</strong>.</p>
+      </details>
+
+      <details>
+        <summary>How does GarageLog know when maintenance is due?</summary>
+        <p>Each task has a distance interval, a time interval, or both — whichever comes first. The interval is measured from the last time you logged that task. For a task you've never logged, GarageLog measures from when you bought the car, or from the date you set with <strong>Set When It Was Last Done</strong> on the task.</p>
+        <p>GarageLog also learns how much you drive from your fill-ups and odometer readings, so it can predict dates like "due in 3 weeks" even between updates. A task shows <strong>Due Soon</strong> when it's within 10% of its interval (at most 800&nbsp;km / 500&nbsp;mi or 30 days) and <strong>Overdue</strong> once it's past.</p>
+      </details>
+
+      <details>
+        <summary>How do I log a service?</summary>
+        <p>In <strong>Schedule</strong>, swipe right on a task and tap <strong>Log Service</strong>, or tap <kbd>+</kbd> on the <strong>Dashboard</strong> or in <strong>History</strong>. One visit can include several items — for example an oil change, tire rotation and cabin filter — and each one you pick from your schedule is marked as done.</p>
+      </details>
+
+      <details>
+        <summary>A task doesn't apply to my car.</summary>
+        <p>In <strong>Schedule</strong>, swipe left on it and tap <strong>Hide</strong>. Hidden tasks are listed under <strong>Hidden</strong> at the top of the schedule, where you can show them again. You can also open a task to change its interval, or add your own with <kbd>+</kbd>.</p>
+      </details>
+
+      <h2 class="section">Fuel &amp; costs</h2>
+
+      <details>
+        <summary>Why doesn't a fill-up show its MPG (or L/100 km)?</summary>
+        <p>Economy is measured between two <strong>full</strong> fill-ups: the distance driven divided by all the fuel added since the last full tank. Partial fills are fine — turn off <strong>Filled the Tank</strong> and they're added to the next full one. If you forgot to log a fill-up, turn on <strong>Missed Logging the Previous One</strong> on the next entry so the result isn't skewed.</p>
+      </details>
+
+      <details>
+        <summary>How do I change units or the economy format?</summary>
+        <p>Distance, fuel volume and currency are per vehicle: <strong>Vehicle</strong> tab › <strong>Edit</strong> › <strong>Units</strong>. Changing them never alters your data. The economy format (MPG, L/100&nbsp;km, km/L, or kWh for EVs) is under <strong>Settings</strong> › <strong>Display</strong>.</p>
+      </details>
+
+      <details>
+        <summary>How do I track insurance, parking or loan payments?</summary>
+        <p>Go to <strong>History</strong> › <strong>Expenses</strong> and tap <kbd>+</kbd>. Set <strong>Repeats</strong> for costs like insurance premiums or loan payments, and they're counted automatically in your totals and Insights.</p>
+      </details>
+
+      <h2 class="section">Reminders</h2>
+
+      <details>
+        <summary>I'm not getting reminders.</summary>
+        <ol>
+          <li>Open the iPhone <strong>Settings</strong> app › <strong>Notifications</strong> › <strong>GarageLog</strong> and make sure <strong>Allow Notifications</strong> is on.</li>
+          <li>In GarageLog, go to <strong>Settings</strong> › <strong>Reminders</strong> and check that reminders are on and the time is right. Each task also has its own <strong>Reminders</strong> switch.</li>
+          <li>Check that a Focus mode isn't silencing GarageLog.</li>
+          <li>Open GarageLog once — reminders are refreshed whenever you open the app or change your data.</li>
+        </ol>
+        <p>Reminders arrive about two weeks before a task is due. Tasks that are already due are summarized once a week instead of reminding you every day.</p>
+      </details>
+
+      <details>
+        <summary>What are odometer check-ins?</summary>
+        <p>If you haven't logged a fill-up or odometer reading for 30 days, GarageLog reminds you to update it so its predictions stay accurate. You can turn this off in <strong>Settings</strong> › <strong>Reminders</strong> › <strong>Odometer Check-ins</strong>.</p>
+      </details>
+
+      <h2 class="section">Sync, backups &amp; your data</h2>
+
+      <details>
+        <summary>How do I sync between my iPhone and iPad?</summary>
+        <p>iCloud Sync is part of GarageLog Pro. Sign in to the same Apple Account with iCloud on both devices, then make sure <strong>Settings</strong> › <strong>iCloud Sync</strong> is on in GarageLog on each. Your existing data uploads the first time sync is turned on.</p>
+        <p>Not syncing? Check that you're signed in to iCloud (iPhone <strong>Settings</strong> › your name), that iCloud has free storage, and that both devices are online.</p>
+      </details>
+
+      <details>
+        <summary>How do I export or move my data?</summary>
+        <p>Go to the <strong>Vehicle</strong> tab › <strong>Data</strong> › <strong>Export Data (CSV)</strong>. You get spreadsheet files for fill-ups, service and expenses, which you can save to Files or open in Numbers or Excel. Export is free.</p>
+      </details>
+
+      <details>
+        <summary>Can I import from Fuelly, Drivvo or a spreadsheet?</summary>
+        <p>Yes — <strong>Vehicle</strong> tab › <strong>Data</strong> › <strong>Import from CSV</strong>. GarageLog recognizes common column names (date, odometer, gallons or liters, price, total, partial, notes…), shows a preview, and lets you confirm the units in the file. Rows that are already in GarageLog are skipped, so importing twice is safe.</p>
+      </details>
+
+      <details>
+        <summary>How do I delete my data?</summary>
+        <p>To delete a car and everything recorded for it, go to the <strong>Vehicle</strong> tab › <strong>Delete Vehicle</strong>. If you sold a car and want to keep its history, choose <strong>Archive Vehicle</strong> instead. To remove data stored in iCloud, go to iPhone <strong>Settings</strong> › your name › <strong>iCloud</strong> › <strong>Manage Account Storage</strong> › <strong>GarageLog</strong>. See our <a href="privacy.html">privacy policy</a> for details.</p>
+      </details>
+
+      <h2 class="section">GarageLog Pro</h2>
+
+      <details>
+        <summary>What's included in Pro?</summary>
+        <p>iCloud sync, unlimited vehicles, Insights (total cost of ownership and cost per mile or km), the Service History Report PDF, receipt and odometer scanning, safety recall alerts (US), Home Screen and Lock Screen widgets, Siri &amp; Shortcuts, and Face ID lock. Everything else — logging, the maintenance schedule, reminders, and data import and export — is free, for one vehicle.</p>
+        <p>Pro is available as a yearly subscription with a free trial, or as a one-time lifetime purchase.</p>
+      </details>
+
+      <details>
+        <summary>I bought Pro but it isn't unlocked.</summary>
+        <p>Open <strong>Settings</strong> › <strong>Upgrade to GarageLog Pro</strong> › <strong>Restore Purchases</strong> while signed in to the Apple Account you purchased with. Pro is shared with your Family Sharing group.</p>
+      </details>
+
+      <details>
+        <summary>How do I cancel my subscription or get a refund?</summary>
+        <p>Subscriptions are managed by Apple: iPhone <strong>Settings</strong> › your name › <strong>Subscriptions</strong> › <strong>GarageLog</strong>. Cancel at least 24 hours before the renewal date to avoid being charged. Request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+      </details>
+
+      <h2 class="section">More</h2>
+
+      <details>
+        <summary>How do I check for safety recalls?</summary>
+        <p>In the United States, the <strong>Vehicle</strong> tab shows open recalls from the National Highway Traffic Safety Administration (NHTSA) for your car's year, make and model, and GarageLog checks weekly for new ones (Pro). When a recall has been fixed, open it and tap <strong>Mark as Fixed</strong>. Recall repairs are free at your dealer.</p>
+      </details>
+
+      <details>
+        <summary>How do I add a widget or use Siri?</summary>
+        <p>Touch and hold your Home Screen, tap <strong>Edit</strong> › <strong>Add Widget</strong> and choose <strong>GarageLog</strong>. You can also add a <strong>Log Fill-up</strong> button to Control Center. With Siri, try "What's due in GarageLog" or "Update odometer in GarageLog". Widgets and Siri are part of Pro.</p>
+      </details>
+
+      <details>
+        <summary>Can I change the app icon?</summary>
+        <p>Yes — go to <strong>Settings</strong> › <strong>App Icon</strong> and pick one of seven designs.</p>
+      </details>
+
+      <details>
+        <summary>Can I lock GarageLog?</summary>
+        <p>Yes. Turn on <strong>Settings</strong> › <strong>App Lock</strong> (Pro). GarageLog then asks for Face ID, Touch ID or your passcode, and hides its contents in the app switcher.</p>
+      </details>
+
+      <details>
+        <summary>Where is Settings?</summary>
+        <p>On the <strong>Vehicle</strong> tab, tap <strong>More</strong> (<kbd>…</kbd>) › <strong>Settings</strong>.</p>
+      </details>
+    </main>
+
+    <footer class="site">
+      <p><a href="privacy.html">Privacy Policy</a></p>
+      <p>© 2026 GarageLog</p>
+    </footer>
+  </div>
+</body>
+</html>
